@@ -1,7 +1,7 @@
 # IMDb Movie Revenue Predictions ![ImdbIcon](images/imdbheader.jpg)
 
 ## Problem Statement
-Discover the most valuable features in predicting a movies revenue, and/or total score.
+Discover the most valuable features in predicting a movies revenue, and/or total score. Identify how valuable total score is when predicting revenue, and how impactful revenue is in predicting a movies total score.
 
 ## Table of contents
 
@@ -26,7 +26,8 @@ Discover the most valuable features in predicting a movies revenue, and/or total
 | [IMDb_ratings.csv](data/IMDb_ratings.csv)  | Kaggle dataset containing IMDb movie ratings for each title. |
 | [IMDb_title_principals.csv](data/IMDb_title_principals.csv)  | Kaggle dataset containing actors, actresses, and director roles. |
 | [tmdb_movies_data.csv](data/tmdb_movies.csv)  | Kaggle dataset containing revenue and budget. |
-| [final_df.csv](data/final_df.csv)  | Final dataset used for modeling. |
+| [totalscore_df.csv](data/totalscore_df.csv)  | Final total score dataset used for modeling. |
+| [revenue_df.csv](data/revenue_df.csv)  | Final revenue dataset used for modeling. |
 
 ## Workflow
 1. Data Cleaning
