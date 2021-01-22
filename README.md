@@ -7,14 +7,16 @@ Discover the most valuable features in predicting a movies revenue, and/or total
 
 | File Name                      | Description of Notebook                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [IMDb_Cleaning.ipynb](IMDb_Cleaning.ipynb)  | Merging and cleaning data process. Final cleaned dataset exported. |
-| [IMDb_EDA.ipynb](IMDb_EDA.ipynb) | Exploratory data analysis of clean movie dataframe. |
+| [IMDb_Cleaning.ipynb](code/IMDb_Cleaning.ipynb)  | Merging and cleaning data process. Final cleaned dataset exported. |
+| [IMDb_EDA.ipynb](code/IMDb_EDA.ipynb) | Exploratory data analysis of clean movie dataframe. |
 | [IMDb_LinearRegressionTotalScore.ipynb](models/IMDb_LinearRegressionTotalScore.ipynb) | Linear Regression Model - Predicting Total Score |
 | [IMDb_LinearRegressionRevenue.ipynb](models/IMDb_LinearRegressionRevenue.ipynb) | Linear Regression Model - Predicting Revenue |
 | [IMDb_RandomForestRegressionTotalScore.ipynb](models/IMDb_RandomForestRegressionTotalScore.ipynb) | Random Forests Regression Model - Predicting Total Score |
 | [IMDb_RandomForestRegressionRevenue.ipynb](models/IMDb_RandomForestRegressionRevenue.ipynb) | Random Forests Regression Model - Predicting Revenue |
 | [IMDb_XGBoostTotalScore.ipynb](models/IMDb_XGBoostTotalScore.ipynb) | XGBoost Regression Model - Predicting Total Score |
 | [IMDb_XGBoostRevenue.ipynb](models/IMDb_XGBoostRevenue.ipynb) | XGBoost Regression Model - Predicting Revenue|
+| [IMDb_ExtraTreesTotalScore.ipynb](models/IMDb_ExtraTreesTotalScore.ipynb) | Extra Trees Regression Model - Predicting Total Score|
+| [IMDb_ExtraTreesRevenue.ipynb](models/IMDb_ExtraTreesRevenue.ipynb) | Extra Trees Regression Model - Predicting Revenue|
 
 | Data Set | Description of Dataset|
 |--------------------------------|---------------------------------------------------------------------------------------------------|
@@ -39,11 +41,11 @@ Discover the most valuable features in predicting a movies revenue, and/or total
 ## Summary of Analysis
 In process..
 
-![TotalScoreHistplot](https://git.generalassemb.ly/nolanarendt/Submissions/blob/main/Projects/capstone_project-master/images/total_score_histplot.png)
+![TotalScoreHistplot](https://github.com/nolanarendt/capstone-dsi/blob/main/images/total_score_histplot.png)
 
-![DirectorTotalScore_budgets](https://git.generalassemb.ly/nolanarendt/Submissions/blob/main/Projects/capstone_project-master/images/directortotalscore_budget.png)
+![DirectorTotalScore_budgets](https://github.com/nolanarendt/capstone-dsi/blob/main/images/directortotalscore_budget.png)
 
-![RevenueByRating](https://git.generalassemb.ly/nolanarendt/Submissions/blob/main/Projects/capstone_project-master/images/revenue_totalscore.png)
+![RevenueByRating](https://github.com/nolanarendt/capstone-dsi/blob/main/images/revenue_totalscore.png)
 
 ## Conclusions & Recommendations
 
