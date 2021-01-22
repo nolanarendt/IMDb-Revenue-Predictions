@@ -7,12 +7,13 @@ Discover the most valuable features in predicting a movies revenue, and/or total
 
 | File Name                      | Description of Notebook                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [IMDb_Cleaning.ipynb](code/IMDb_Cleaning.ipynb)  | Merging and cleaning data process. Final cleaned dataset exported. |
+| [IMDb_CleaningTotalScore.ipynb](code/IMDb_CleaningTotalScore.ipynb)  | Merging and cleaning total score dataset. Final cleaned dataset exported. |
+| [IMDb_CleaningRevenue.ipynb](code/IMDb_CleaningRevenue.ipynb)  | Merging and cleaning revenue dataset. Final cleaned dataset exported. |
 | [IMDb_EDA.ipynb](code/IMDb_EDA.ipynb) | Exploratory data analysis of clean movie dataframe. |
 | [IMDb_LinearRegressionTotalScore.ipynb](models/IMDb_LinearRegressionTotalScore.ipynb) | Linear Regression Model - Predicting Total Score |
 | [IMDb_LinearRegressionRevenue.ipynb](models/IMDb_LinearRegressionRevenue.ipynb) | Linear Regression Model - Predicting Revenue |
-| [IMDb_RandomForestRegressionTotalScore.ipynb](models/IMDb_RandomForestRegressionTotalScore.ipynb) | Random Forests Regression Model - Predicting Total Score |
-| [IMDb_RandomForestRegressionRevenue.ipynb](models/IMDb_RandomForestRegressionRevenue.ipynb) | Random Forests Regression Model - Predicting Revenue |
+| [IMDb_RandomForestRegressionTotalScore.ipynb](models/IMDb_RandomForestsRegressionTotalScore.ipynb) | Random Forests Regression Model - Predicting Total Score |
+| [IMDb_RandomForestRegressionRevenue.ipynb](models/IMDb_RandomForestsRegressionRevenue.ipynb) | Random Forests Regression Model - Predicting Revenue |
 | [IMDb_XGBoostTotalScore.ipynb](models/IMDb_XGBoostTotalScore.ipynb) | XGBoost Regression Model - Predicting Total Score |
 | [IMDb_XGBoostRevenue.ipynb](models/IMDb_XGBoostRevenue.ipynb) | XGBoost Regression Model - Predicting Revenue|
 | [IMDb_ExtraTreesTotalScore.ipynb](models/IMDb_ExtraTreesTotalScore.ipynb) | Extra Trees Regression Model - Predicting Total Score|
