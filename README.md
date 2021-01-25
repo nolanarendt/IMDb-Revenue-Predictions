@@ -14,10 +14,10 @@ Discover the most valuable features in predicting a movies revenue, and/or total
 | [IMDb_LinearRegressionRevenue.ipynb](models/IMDb_LinearRegressionRevenue.ipynb) | Linear Regression Model - Predicting Revenue |
 | [IMDb_RandomForestRegressionTotalScore.ipynb](models/IMDb_RandomForestsRegressionTotalScore.ipynb) | Random Forests Regression Model - Predicting Total Score |
 | [IMDb_RandomForestRegressionRevenue.ipynb](models/IMDb_RandomForestsRegressionRevenue.ipynb) | Random Forests Regression Model - Predicting Revenue |
-| [IMDb_XGBoostTotalScore.ipynb](models/IMDb_XGBoostTotalScore.ipynb) | XGBoost Regression Model - Predicting Total Score |
-| [IMDb_XGBoostRevenue.ipynb](models/IMDb_XGBoostRevenue.ipynb) | XGBoost Regression Model - Predicting Revenue|
-| [IMDb_ExtraTreesTotalScore.ipynb](models/IMDb_ExtraTreesTotalScore.ipynb) | Extra Trees Regression Model - Predicting Total Score|
-| [IMDb_ExtraTreesRevenue.ipynb](models/IMDb_ExtraTreesRevenue.ipynb) | Extra Trees Regression Model - Predicting Revenue|
+| [IMDb_XGBoostRegressionTotalScore.ipynb](models/IMDb_XGBoostRegressionTotalScore.ipynb) | XGBoost Regression Model - Predicting Total Score |
+| [IMDb_XGBoostRegressionRevenue.ipynb](models/IMDb_XGBoostRegressionRevenue.ipynb) | XGBoost Regression Model - Predicting Revenue|
+| [IMDb_ExtraTreesRegressionTotalScore.ipynb](models/IMDb_ExtraTreesRegressionTotalScore.ipynb) | Extra Trees Regression Model - Predicting Total Score|
+| [IMDb_ExtraTreesRegressionRevenue.ipynb](models/IMDb_ExtraTreesRegressionRevenue.ipynb) | Extra Trees Regression Model - Predicting Revenue|
 
 | Data Set | Description of Dataset|
 |--------------------------------|---------------------------------------------------------------------------------------------------|
