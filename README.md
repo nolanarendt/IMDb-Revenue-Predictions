@@ -9,17 +9,17 @@ To help resolve the uncertainty in producing films, I aim to identify key featur
 
 | File Name                      | Description of Notebook                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [IMDb_CleaningTotalScore.ipynb](code/IMDb_CleaningTotalScore.ipynb)  | Merging and cleaning total score dataset. Final cleaned dataset exported. |
-| [IMDb_CleaningRevenue.ipynb](code/IMDb_CleaningRevenue.ipynb)  | Merging and cleaning revenue dataset. Final cleaned dataset exported. |
-| [IMDb_EDA.ipynb](code/IMDb_EDA.ipynb) | Exploratory data analysis of clean movie dataframe. |
-| [IMDb_LinearRegressionTotalScore.ipynb](models/IMDb_LinearRegressionTotalScore.ipynb) | Linear Regression Model - Predicting Total Score |
-| [IMDb_LinearRegressionRevenue.ipynb](models/IMDb_LinearRegressionRevenue.ipynb) | Linear Regression Model - Predicting Revenue |
-| [IMDb_RandomForestRegressionTotalScore.ipynb](models/IMDb_RandomForestsRegressionTotalScore.ipynb) | Random Forests Regression Model - Predicting Total Score |
-| [IMDb_RandomForestRegressionRevenue.ipynb](models/IMDb_RandomForestsRegressionRevenue.ipynb) | Random Forests Regression Model - Predicting Revenue |
-| [IMDb_XGBoostRegressionTotalScore.ipynb](models/IMDb_XGBoostRegressionTotalScore.ipynb) | XGBoost Regression Model - Predicting Total Score |
-| [IMDb_XGBoostRegressionRevenue.ipynb](models/IMDb_XGBoostRegressionRevenue.ipynb) | XGBoost Regression Model - Predicting Revenue|
-| [IMDb_ExtraTreesRegressionTotalScore.ipynb](models/IMDb_ExtraTreesRegressionTotalScore.ipynb) | Extra Trees Regression Model - Predicting Total Score|
-| [IMDb_ExtraTreesRegressionRevenue.ipynb](models/IMDb_ExtraTreesRegressionRevenue.ipynb) | Extra Trees Regression Model - Predicting Revenue|
+| [IMDb_CleaningTotalScore.ipynb](code/IMDb_CleaningTotalScore.ipynb)  | Merging and cleaning total score dataset. Final cleaned dataset exported containing 4,156 movies and 53,173 different actors, actresses, and directors. |
+| [IMDb_CleaningRevenue.ipynb](code/IMDb_CleaningRevenue.ipynb)  | Merging and cleaning revenue dataset. Final cleaned dataset exported containing 1,843 movies 11,321 different actors, actresses, and directors. |
+| [IMDb_EDA.ipynb](code/IMDb_EDA.ipynb) | Exploratory data analysis of both movie score and revenue dataframes. |
+| [IMDb_LinearRegressionTotalScore.ipynb](models/IMDb_LinearRegressionTotalScore.ipynb) | Linear Regression Model - Predicting IMDb Movie Score |
+| [IMDb_LinearRegressionRevenue.ipynb](models/IMDb_LinearRegressionRevenue.ipynb) | Linear Regression Model - Predicting Movie Revenue |
+| [IMDb_RandomForestRegressionTotalScore.ipynb](models/IMDb_RandomForestsRegressionTotalScore.ipynb) | Random Forests Regression Model - Predicting IMDb Movie Score |
+| [IMDb_RandomForestRegressionRevenue.ipynb](models/IMDb_RandomForestsRegressionRevenue.ipynb) | Random Forests Regression Model - Predicting Movie Revenue |
+| [IMDb_XGBoostRegressionTotalScore.ipynb](models/IMDb_XGBoostRegressionTotalScore.ipynb) | XGBoost Regression Model - Predicting IMDb Movie Score |
+| [IMDb_XGBoostRegressionRevenue.ipynb](models/IMDb_XGBoostRegressionRevenue.ipynb) | XGBoost Regression Model - Predicting Movie Revenue|
+| [IMDb_ExtraTreesRegressionTotalScore.ipynb](models/IMDb_ExtraTreesRegressionTotalScore.ipynb) | Extra Trees Regression Model - Predicting IMDb Movie Score|
+| [IMDb_ExtraTreesRegressionRevenue.ipynb](models/IMDb_ExtraTreesRegressionRevenue.ipynb) | Extra Trees Regression Model - Predicting Movie Revenue|
 
 | Data Set | Description of Dataset|
 |--------------------------------|---------------------------------------------------------------------------------------------------|
@@ -27,8 +27,8 @@ To help resolve the uncertainty in producing films, I aim to identify key featur
 | [IMDb_names.csv](data/IMDb_names.csv)  | Kaggle dataset actors, actresses, and directors names and information. |
 | [IMDb_ratings.csv](data/IMDb_ratings.csv)  | Kaggle dataset containing IMDb movie ratings for each title. |
 | [IMDb_title_principals.csv](data/IMDb_title_principals.csv)  | Kaggle dataset containing actors, actresses, and director roles. |
-| [tmdb_movies_data.csv](data/tmdb_movies.csv)  | Kaggle dataset containing revenue and budget. |
-| [totalscore_df.csv](data/totalscore_df.csv)  | Final total score dataset used for modeling. |
+| [tmdb_movies_data.csv](data/tmdb_movies_data.csv)  | Kaggle dataset containing revenue and budget. |
+| [totalscore_df.csv](data/totalscore_df.csv)  | Final movie score dataset used for modeling. |
 | [revenue_df.csv](data/revenue_df.csv)  | Final revenue dataset used for modeling. |
 
 ## Workflow
